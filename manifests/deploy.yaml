@@ -25,7 +25,7 @@ spec:
         ports:
           - containerPort: 80
 
-        envFrom:
-          - configMapRef:
-              name: beermeetup
+        env:
+          - name: NEXT_BEER
+            value: "2026-2-28"
 status: {}

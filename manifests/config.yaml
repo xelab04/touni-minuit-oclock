@@ -1,7 +1,0 @@
-apiVersion: v1
-data:
-  NEXT_BEER: "2025-10-31"
-kind: ConfigMap
-metadata:
-  creationTimestamp: null
-  name: beermeetup
