@@ -21,7 +21,7 @@ kind: Ingress
 metadata:
   name: touniminuit
   annotations:
-    cert-manager.io/issuer: "issuer"
+    cert-manager.io/cluster-issuer: "issuer"
 
 spec:
   ingressClassName: traefik
